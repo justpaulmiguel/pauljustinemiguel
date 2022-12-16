@@ -1,9 +1,9 @@
 body {
-    width: 100%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
+@media (min-width: 1200px) {
 #homeBtn {
     position: fixed;
     bottom: 3vw;
@@ -118,10 +118,10 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    transition: .5s;
+    box-shadow: 1px 1px 4px;
 }
 
-#act1
-{}
 
 .actTitle1
 {
@@ -167,7 +167,189 @@ iframe
     margin-left: 2vw;
     font-size: 2vw;
     font-family: Raleway, sans-serif;
-    color: #29363B;
-    text-align: right;
+    color: #FDCEA9;
+    text-align: left;
+    text-shadow: 2px 2px 2px #29363B
+}
+
+
+
+}
+
+/* If the screen size is smaller than 1200px, set the font-size to 80px */
+@media (max-width: 1199.98px) {
+    
+    #homeBtn {
+        position: fixed;
+        bottom: 10vw;
+        right: 10vw;
+        height: 22vw;
+        width: auto;
+        -webkit-filter: drop-shadow(2px 2px 5px #29363b);
+        filter: drop-shadow(2px 2px 5px #29363b);
+        transition: .3s;
+        box-shadow: none;
+    }
+    
+    #homeBtn:hover {
+        height: 26vw;
+        width: auto;
+    }
+    
+    #sideNav {
+        display: block;
+        padding-bottom: 60px;
+        background-color: #29363b;
+        width: 0px;
+        z-index: 1;
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        transition: 0.3s;
+        overflow-x: hidden;
+        box-shadow: 0px 0px 3px;
+    }
+    
+    #sideNav ul {
+        font-family: Raleway, sans-serif;
+        font-size: 24px;
+        transition: 0.3s;
+        padding-left: 2rem;
+        overflow-x: hidden;
+    }
+    
+    .nav-link {
+        color: #fdcea9;
+        transition: .5s;
+    }
+    
+    .nav-link:hover {
+        color: #EA495F;
+    }
+    
+    #img1 {
+        margin: 6vw 6vw 6vw;
+        height: 10vw;
+        position: fixed;
+    }
+    
+    #img1:hover {
+        cursor: pointer;
+    }
+    
+     #sideNav .closebtn {
+        color: #FDCEA9;
+        text-decoration: none;
+        font-size: 50px;
+      }
+    
+      .top
+      {    
+        width: 100%;
+        background: fixed;
+        background-size: cover;
+        background-image: url("https://drive.google.com/uc?id=1SVQ4j-7hIe_D-hSNMxAqpzG7cuj2Rw7s");
+      }
+    
+      .titleTop
+      {
+        font-family: righteous, sans-serif;
+        font-size: 10vw;
+        color: #EA495F;
+        margin-left: 3vw;
+        margin-top: 14vw;
+      }
+      #name
+    {
+        margin-left: 3vw;
+        font-size: 10vw;
+        padding-top: -20px;
+        font-family: righteous, sans-serif;
+        color: #EA495F;
+        white-space: initial;
+        line-height: 120%;
+        text-shadow: 2px 2px 5px #29363b;
+    }
+      #details p {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        font-size: 4vw;
+        font-family: Raleway, sans-serif;
+        color: #29363B;
+        white-space: initial;
+        text-shadow: 2px 2px 2px #FDCEA9;
+    }
+    
+    
+    .dp
+    {
+        width: 75%;
+        margin-bottom: 6vw;
+        margin-top: 3vw;
+        border-radius: 2vw;
+        border: solid;
+        border-width: .5vw;
+        border-color: #29363b;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        transition: .5s;
+        box-shadow: 1px 1px 4px;
+    }
+    
+
+    
+    .actTitle1
+    {
+        font-family: righteous, sans-serif;
+        font-size: 10vw;
+        color: #EA495F;
+        margin-left: 5px;
+        margin-top: .3vw;
+        margin-bottom: 1vw;
+    }
+    .actText1 {
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2vw;
+        font-size: 4vw;
+        font-family: Raleway, sans-serif;
+        color: #29363B;
+        text-align: center;
+    }
+    iframe
+    {   
+        margin-right: 10;
+        margin-left: 7vw;
+        margin-top: 4vw;
+        margin-bottom: 4vw;
+        height: 80vw;
+        width: 80vw;
+        border-radius: 2vw;
+        border: none;
+        outline: none;
+    }
+    .vid
+    {
+        align-items: center;
+        align-self: center;
+        text-align: center;
+    }
+
+    
+    .actText2 {
+        display: inline-block;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2vw;
+        font-size: 4vw; 
+        font-family: Raleway, sans-serif;
+        color: #FDCEA9;
+        text-align: center;
+        text-shadow: 2px 2px 2px #29363B
+    }
+
 }
 
