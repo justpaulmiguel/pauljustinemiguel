@@ -6,9 +6,9 @@ body {
 
 #homeBtn {
     position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    height: 5rem;
+    bottom: 3vw;
+    right: 3vw;
+    height: 6vw;
     width: auto;
     -webkit-filter: drop-shadow(2px 2px 5px #29363b);
     filter: drop-shadow(2px 2px 5px #29363b);
@@ -20,7 +20,6 @@ body {
     height: 6rem;
     width: auto;
 }
-
 
 #sideNav {
     display: block;
@@ -55,8 +54,8 @@ body {
 }
 
 #img1 {
-    margin: 2rem 1.5rem 1.5rem;
-    height: 30px;
+    margin: 2.25vw 2.5vw 2.5vw;
+    height: 2vw;
     position: fixed;
 }
 
@@ -82,12 +81,12 @@ body {
     font-family: righteous, sans-serif;
     font-size: 4vw;
     color: #EA495F;
-    margin-left: 5px;
+    margin-left: 3vw;
     margin-top: 21px;
-    margin-bottom: 21px;
   }
   #name
 {
+    margin-left: 3vw;
     font-size: 6vw;
     padding-top: -20px;
     font-family: righteous, sans-serif;
@@ -97,6 +96,7 @@ body {
     text-shadow: 2px 2px 5px #29363b;
 }
   #details p {
+    margin-left: 3vw;
     font-size: 2vw;
     font-family: Raleway, sans-serif;
     color: #FDCEA9;
@@ -106,10 +106,31 @@ body {
 
 .dp
 {
+    height: 35vw;
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 25px;
     border: solid;
-    border-width: 8px;
+    border-width: .5vw;
     border-color: #29363b;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
+
+video
+{
+    border-radius: 20px;
+    height: 35vw !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#actText {
+    margin-left: 3vw;
+    font-size: 1vw;
+    font-family: Raleway, sans-serif;
+    color: #FDCEA9;
+    text-shadow: 2px 2px 3px #29363B;
+}
+
