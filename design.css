@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+#homeBtn {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    height: 5rem;
+    width: auto;
+    -webkit-filter: drop-shadow(2px 2px 5px #29363b);
+    filter: drop-shadow(2px 2px 5px #29363b);
+    transition: .3s;
+    box-shadow: none;
+}
+
+#homeBtn:hover {
+    height: 6rem;
+    width: auto;
+}
+
+
+#sideNav {
+    display: block;
+    padding-bottom: 60px;
+    background-color: #29363b;
+    width: 0px;
+    z-index: 1;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    transition: 0.3s;
+    overflow-x: hidden;
+    box-shadow: 0px 0px 3px;
+}
+
+#sideNav ul {
+    font-family: Raleway, sans-serif;
+    font-size: 24px;
+    transition: 0.3s;
+    padding-left: 2rem;
+    overflow-x: hidden;
+}
+
+.nav-link {
+    color: #fdcea9;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: #EA495F;
+}
+
+#img1 {
+    margin: 2rem 1.5rem 1.5rem;
+    height: 30px;
+    position: fixed;
+}
+
+#img1:hover {
+    cursor: pointer;
+}
+
+ #sideNav .closebtn {
+    color: #FDCEA9;
+    text-decoration: none;
+    font-size: 50px;
+  }
+
+  .top
+  {    
+    background: fixed;
+    background-size: cover;
+    background-image: url("https://drive.google.com/uc?id=1SVQ4j-7hIe_D-hSNMxAqpzG7cuj2Rw7s");
+  }
+
+  .titleTop
+  {
+    font-family: righteous, sans-serif;
+    font-size: 4vw;
+    color: #EA495F;
+    margin-left: 5px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+  }
+  #name
+{
+    font-size: 6vw;
+    padding-top: -20px;
+    font-family: righteous, sans-serif;
+    color: #EA495F;
+    white-space: initial;
+    line-height: 120%;
+    text-shadow: 2px 2px 5px #29363b;
+}
+  #details p {
+    font-size: 2vw;
+    font-family: Raleway, sans-serif;
+    color: #FDCEA9;
+    text-shadow: 2px 2px 3px #29363B;
+}
+
+
+.dp
+{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 25px;
+    border: solid;
+    border-width: 8px;
+    border-color: #29363b;
+}
