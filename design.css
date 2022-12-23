@@ -166,7 +166,7 @@ body {
         font-size: 1.5vw;
         font-family: righteous, sans-serif;
         color: #FDCEA9;
-        -webkit-text-stroke: 1px #29363B;
+        -webkit-text-stroke: .5px #29363B;
         text-shadow: 0px 0px 4px #29363B;
         text-align: left;
     }
