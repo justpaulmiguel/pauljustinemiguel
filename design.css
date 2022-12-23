@@ -151,6 +151,9 @@ body {
         border-radius: 2vw;
         border: none;
         outline: none;
+        background: #e0e0e0;
+        box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
     }
 
     .vid {
@@ -342,6 +345,10 @@ body {
         border-radius: 2vw;
         border: none;
         outline: none;
+        
+        background: #e0e0e0;
+        box-shadow: 20px 20px 60px #bebebe,
+            -20px -20px 60px #ffffff;
     }
 
     .vid {
@@ -355,7 +362,7 @@ body {
         width: auto;
         margin-bottom: 3vw;
         height: inherit;
-        max-width:287.5px ;
+        max-width: 287.5px;
         max-height: 375px;
         display: block;
         margin-left: auto;
