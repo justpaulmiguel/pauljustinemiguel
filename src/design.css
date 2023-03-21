@@ -272,7 +272,7 @@ a.active
         position: fixed;
         bottom: 10vw;
         right: 10vw;
-        height: 22vw;
+        height: 12vw;
         width: auto;
         -webkit-filter: drop-shadow(2px 2px 5px #29363b);
         filter: drop-shadow(2px 2px 5px #29363b);
@@ -281,7 +281,7 @@ a.active
     }
 
     #homeBtn:hover {
-        height: 26vw;
+        height: 16vw;
         width: auto;
     }
 
