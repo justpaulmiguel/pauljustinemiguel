@@ -3,7 +3,43 @@ body {
     scroll-behavior: smooth;
 }
 
+
 @media (min-width: 1200px) {
+
+    
+a.active
+{
+    color: #EA495F;
+}
+#brandTitle 
+{
+    text-decoration: none;
+    z-index: 2;
+    font-family: Raleway, sans-serif;
+    background-color: #29363B;
+    font-size: 1.5vw;
+    padding-top: .75vw;
+    padding-bottom: .75vw;
+}
+#Fl301
+{
+    margin-left: 4vw;
+}
+.topBar
+{
+    margin-right: 1vw;
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: 500ms;
+}
+.topBar:hover
+{
+    color: #FDCEA9;
+}
+
+
+
+
     #homeBtn {
         position: fixed;
         bottom: 3vw;
@@ -23,11 +59,10 @@ body {
 
     #sideNav {
         display: block;
-        padding-bottom: 60px;
         background-color: #29363b;
         width: 0px;
         z-index: 1;
-        position: fixed;
+        position:fixed;
         top: 0px;
         bottom: 0px;
         left: 0px;
@@ -40,7 +75,7 @@ body {
         font-family: Raleway, sans-serif;
         font-size: 24px;
         transition: 0.3s;
-        padding-left: 2rem;
+        padding-left: .5rem;
         overflow-x: hidden;
     }
 
@@ -54,7 +89,6 @@ body {
     }
 
     #img1 {
-        margin: 2.25vw 2.5vw 2.5vw;
         height: 2vw;
         position: fixed;
     }
@@ -66,7 +100,8 @@ body {
     #sideNav .closebtn {
         color: #FDCEA9;
         text-decoration: none;
-        font-size: 50px;
+        font-size: 2vw;
+        font-weight: bolder;
     }
 
     .top {
@@ -199,6 +234,40 @@ body {
 /* If the screen size is smaller than 1200px, set the font-size to 80px */
 @media (max-width: 1199.98px) {
 
+    
+a.active
+{
+    color: #EA495F;
+}
+#brandTitle 
+{
+    text-decoration: none;
+    z-index: 2;
+    font-family: Raleway, sans-serif;
+    background-color: #29363B;
+    font-size: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+}
+#Fl301
+{
+    margin-left: 8vw;
+}
+.topBar
+{
+    margin-right: 2vw;
+    text-decoration: none;
+    color: #e0e0e0;
+    transition: 500ms;
+}
+.topBar:hover
+{
+    color: #FDCEA9;
+}
+
+
+
+
     #homeBtn {
         position: fixed;
         bottom: 10vw;
@@ -235,7 +304,7 @@ body {
         font-family: Raleway, sans-serif;
         font-size: 24px;
         transition: 0.3s;
-        padding-left: 2rem;
+        padding-left: .8rem;
         overflow-x: hidden;
     }
 
@@ -249,8 +318,7 @@ body {
     }
 
     #img1 {
-        margin: 6vw 6vw 6vw;
-        height: 10vw;
+        height: 4vw;
         position: fixed;
     }
 
@@ -259,9 +327,10 @@ body {
     }
 
     #sideNav .closebtn {
-        color: #FDCEA9;
-        text-decoration: none;
-        font-size: 50px;
+            color: #FDCEA9;
+            text-decoration: none;
+            font-size: 3.5vw;
+            font-weight: bolder;
     }
 
     .top {
